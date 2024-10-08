@@ -6,12 +6,12 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: import('@/views/HomeView.vue')
+      component: () => import('@/views/HomeView.vue')
     },
     {
       path: '/favorites',
       name: 'favorites',
-      component: import('@/views/FavoriteBooks.vue')
+      component: () => import('@/views/FavoriteBooks.vue')
     },
     {
       path: '/:notFound(.*)',
