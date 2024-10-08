@@ -1,5 +1,7 @@
 @use '../abstract/vars' as *;
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 html {
   box-sizing: border-box;
   background-color: var(--clr-bg);
@@ -12,12 +14,8 @@ html {
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 0;
   padding: 0;
-  min-height: 100vh;
   font-family: var(--font-family);
   color: var(--clr-light);
 }
