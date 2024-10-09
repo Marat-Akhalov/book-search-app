@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import ThemeSwitch from '@/components/ThemeSwitch.vue';
 </script>
 
 <template>
@@ -26,6 +26,7 @@
         />
       </svg>
     </RouterLink>
+    <ThemeSwitch />
   </header>
 </template>
 
@@ -38,14 +39,14 @@
   &__logo {
     font-weight: 600;
     font-size: 1.5rem;
-    color: #fff;
+    color: var(--clr-text);
   }
 
   &__favorites {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #fff;
+    color: var(--clr-text);
     text-decoration: none;
   }
 

@@ -10,8 +10,13 @@
   // colors
   --clr-light: #fff;
   --clr-dark: #000;
-  --clr-primary: #0a9ca1;
-  --clr-primary-light: #0adce4;
-  --clr-primary-dark: #0e5162;
-  --clr-bg: #131113;
+  --clr-bg: #ececec;
+  --clr-text: #000;
+  --scheme-clr: white;
+}
+
+:root.dark {
+  --clr-bg: #131313;
+  --clr-text: #fff;
+  --scheme-clr: dark;
 }
