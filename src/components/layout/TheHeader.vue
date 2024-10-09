@@ -33,10 +33,13 @@ import ThemeSwitch from '@/components/ThemeSwitch.vue';
 <style scoped lang="scss">
 .header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
   width: 100%;
 
+
   &__logo {
+    margin-right: auto;
     font-weight: 600;
     font-size: 1.5rem;
     color: var(--clr-text);

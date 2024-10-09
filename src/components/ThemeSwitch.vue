@@ -65,5 +65,9 @@ const toggleDark = useToggle(isDark)
   &__btn {
     cursor: pointer;
   }
+
+  &__icon {
+    display: flex;
+  }
 }
 </style>
