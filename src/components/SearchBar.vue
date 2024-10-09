@@ -54,23 +54,26 @@ const searchString = ref<string>('')
   }
 
   &__input {
-    border: 1px solid #000;
+    border: 2px solid var(--clr-border);
     border-radius: 8px;
     padding: 8px 16px;
     padding-right: 32px;
     width: 100%;
-    min-height: 40px;
+    min-height: 56px;
+    font-size: 1.2rem;
+    outline: none;
 
     &:focus-visible {
-      outline: 2px solid #6098df;
+      border-color: #6098df;
     }
   }
 
   &__submit {
     position: absolute;
-    top: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     right: 5px;
-    transform: translateY(-50%);
     cursor: pointer;
   }
 }

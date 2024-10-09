@@ -12,11 +12,13 @@
   --clr-dark: #000;
   --clr-bg: #ececec;
   --clr-text: #000;
+  --clr-border: #000;
   --scheme-clr: white;
 }
 
 :root.dark {
   --clr-bg: #131313;
   --clr-text: #fff;
+  --clr-border: #fff;
   --scheme-clr: dark;
 }
